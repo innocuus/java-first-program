@@ -34,17 +34,17 @@ public class Finance {
         switch (command) {
             case BEST_LOAN_RATES:
                 System.out.println("Finding best loan rates ...");
-                BestLoanRates(arguments);                
+                BestLoanRates.main(arguments);                
                 return;
 
             case SAVINGS_CALCULATOR:
                 System.out.println("Finding your net savings ...");
-                SavingsCalculator(arguments);
+                SavingsCalculator.main(arguments);
                 return;
 
             case MORTGAGE_CALCULATOR:
                 System.out.println("Finding your monthly payment ...");
-                MortgageCalculator(arguments);
+                MortgageCalculator.main(arguments);
                 return;    
 
             default:
