@@ -16,11 +16,11 @@ public class App
         return number*2;
     }
 
-    private static int add(int[] numbers) {
-        int sum = 0;
-        for(int number : numbers){
-            sum += number;
-        }
-        return sum;
-    }
+//     private static int add(int[] numbers) {
+//         int sum = 0;
+//         for(int number : numbers){
+//             sum += number;
+//         }
+//         return sum;
+//     }
 }
