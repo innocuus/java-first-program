@@ -66,6 +66,6 @@ public class SavingsCalculator {
 
         float netSavings = calculator.calculate();
 
-        System.out.println("Net Savings = " + netSavings + ", remaining days in the month = " + remainingDaysInMonth(LocalDate.now()));
+        System.out.println("Net Savings = " + netSavings + ", remaining days in month = " + remainingDaysInMonth(LocalDate.now()));
     }
 }
