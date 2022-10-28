@@ -49,8 +49,6 @@ public class Finance {
                 MortgageCalculator.main(arguments);
                 return;    
 
-            default:
-                break;
         }
     }
 
