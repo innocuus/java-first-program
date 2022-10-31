@@ -23,7 +23,7 @@ public class Finance {
 
             case SAVINGS_CALCULATOR:
                 return args.length == 3;
-            
+
             case MORTGAGE_CALCULATOR:
                 return args.length == 4;
 
@@ -36,7 +36,7 @@ public class Finance {
         switch (command) {
             case BEST_LOAN_RATES:
                 System.out.println("Finding best loan rates ...");
-                BestLoanRates.main(arguments);                
+                BestLoanRates.main(arguments);
                 return;
 
             case SAVINGS_CALCULATOR:
@@ -47,7 +47,7 @@ public class Finance {
             case MORTGAGE_CALCULATOR:
                 System.out.println("Finding your monthly payment ...");
                 MortgageCalculator.main(arguments);
-                return;    
+                return;
 
         }
     }
