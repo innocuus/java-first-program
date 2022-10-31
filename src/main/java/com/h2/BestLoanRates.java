@@ -28,6 +28,6 @@ public class BestLoanRates {
         }else{
             System.out.println("Best Available Rate: " + getRates(loanTermInYears) + "%");
         }
-        scanner.close();
+        //scanner.close();
     }
 }
